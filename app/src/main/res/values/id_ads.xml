@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--    ads test-->
+    <string name="app_id" translatable="false"></string>
+    <string name="mode" translatable="false">debug</string>
+    <string name="app_open_on_resume" translatable="false"></string>
+    <string name="inter_splash" translatable="false"></string>
+
+    <string name="native_language" translatable="false"></string>
+    <string name="native_language2" translatable="false"></string>
+
+    <string name="native_permission" translatable="false"></string>
+
+    <string name="native_home" translatable="false"></string>
+
+    <string name="native_sound" translatable="false"></string>
+
+    <string name="banner_all" translatable="false"></string>
+
+</resources>

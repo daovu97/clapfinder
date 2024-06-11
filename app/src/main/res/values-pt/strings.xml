@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="lg_english">Inglês</string>
+	<string name="lg_french">Francês</string>
+	<string name="lg_hindi">Híndi</string>
+	<string name="lg_china">Chinês</string>
+	<string name="lg_spanish">Espanhol</string>
+	<string name="lg_portuguese">Português</string>
+	<string name="lg_indo">Indonésio</string>
+	<string name="lg_japan">Japonês</string>
+	<string name="lg_korean">Coreano</string>
+	<string name="lg_vietnam">Vietnamita</string>
+	<string name="app_name">Encontrar Palmas</string>
+	<string name="service_running">Encontrar Palmas está em execução</string>
+	<string name="language">Idioma</string>
+	<string name="permission">Permissão</string>
+	<string name="txt_detail_grant_permission">O aplicativo precisa da<b> Permissão de Gravação </b>para encontrar o telefone batendo palmas</string>
+	<string name="txtvolume">Volume</string>
+	<string name="txt_duration">Duração</string>
+	<string name="txt_privacy_policy">Política de Privacidade</string>
+	<string name="txtshare">Compartilhar</string>
+	<string name="txt_feedback">Feedback</string>
+	<string name="txt_rate_us">Avalie-nos</string>
+	<string name="txt_go">Ir</string>
+	<string name="txt_sound">Som de Alerta</string>
+	<string name="tapToDeActiveTitle">Toque para desativar</string>
+	<string name="flashlightTitle">Lanterna</string>
+	<string name="vibrationTitle">Vibração</string>
+	<string name="txt_setting">Configuração</string>
+	<string name="txt_choose_sound_ss">Defina o som %1$s com sucesso</string>
+	<string name="txt_allow_access_notification">Notificações</string>
+	<string name="txt_allow_access_recording">Gravação</string>
+	<string name="cat_meowing">Gato miando</string>
+	<string name="dog_barking">Cão latindo</string>
+	<string name="laugh">Risada</string>
+	<string name="chicken">Galinha</string>
+	<string name="police_whistle">Apito de polícia</string>
+	<string name="door_bell">Campainha da porta</string>
+	<string name="cavalry">Cavalaria</string>
+	<string name="this_action_can_contain_ads">Esta ação pode conter anúncios</string>
+	<string name="tap_under_to_activate_clap_nfinder_mode">Toque em "abaixo" para ativar o modo Encontrar Palmas.</string>
+	<string name="sound_alert">Alerta</string>
+	<string name="train_horn">Buzina de trem</string>
+	<string name="party_horn">Buzina de barco</string>
+	<string name="find_me_n_i_am_here">Encontre-me.\nEstou aqui!</string>
+	<string name="stop_lbl">PARAR</string>
+	<string name="custom_sound">Som personalizado: </string>
+	<string name="custom_sound_chose">Escolher</string>
+	<string name="settings">Configurações</string>
+	<string name="charging_alarm">Alarme de carregamento</string>
+	<string name="tap_under_to_activate_charing">Toque em "Iniciar" para ativar\no modo de Alarme de Carregamento Desconectado.</string>
+	<string name="tap_under_to_activate_charing_stop">O modo está ativado. Agora, se alguém o desconectar do carregamento, começará a soar o alarme.</string>
+	<string name="start_tt">INICIAR</string>
+	<string name="stop_tt">PARAR</string>
+
+</resources>

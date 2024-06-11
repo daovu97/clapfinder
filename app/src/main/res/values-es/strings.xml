@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="lg_english">Inglés</string>
+    <string name="lg_french">Francés</string>
+    <string name="lg_hindi">Hindi</string>
+    <string name="lg_china">Chino</string>
+    <string name="lg_spanish">Español</string>
+    <string name="lg_portuguese">Portugués</string>
+    <string name="lg_indo">Indonesio</string>
+    <string name="lg_japan">Japonés</string>
+    <string name="lg_korean">Coreano</string>
+    <string name="lg_vietnam">Vietnamita</string>
+    <string name="app_name">Buscador de Aplausos</string>
+    <string name="service_running">El Buscador de Aplausos está en funcionamiento</string>
+    <string name="language">Idioma</string>
+    <string name="permission">Permiso</string>
+    <string name="txt_detail_grant_permission">La aplicación necesita <b>Permiso de Grabación</b> para encontrar el teléfono aplaudiendo</string>
+    <string name="txtvolume">Volumen</string>
+    <string name="txt_duration">Duración</string>
+    <string name="txt_privacy_policy">Política de privacidad</string>
+    <string name="txtshare">Compartir</string>
+    <string name="txt_feedback">Retroalimentación</string>
+    <string name="txt_rate_us">Califícanos</string>
+    <string name="txt_go">Ir</string>
+    <string name="txt_sound">Sonido de Alerta</string>
+    <string name="tapToDeActiveTitle">Toque para desactivar</string>
+    <string name="flashlightTitle">Linterna</string>
+    <string name="vibrationTitle">Vibración</string>
+    <string name="txt_setting">Configuración</string>
+    <string name="txt_choose_sound_ss">Configurar sonido %1$s exitosamente</string>
+    <string name="txt_allow_access_notification">Notificaciones</string>
+    <string name="txt_allow_access_recording">Grabación</string>
+    <string name="cat_meowing">Maullido de gato</string>
+    <string name="dog_barking">Ladrido de perro</string>
+    <string name="laugh">Risa</string>
+    <string name="chicken">Gallo</string>
+    <string name="police_whistle">Silbato de policía</string>
+    <string name="door_bell">Timbre de puerta</string>
+    <string name="cavalry">Caballería</string>
+    <string name="this_action_can_contain_ads">Esta acción puede contener anuncios</string>
+    <string name="tap_under_to_activate_clap_nfinder_mode">Toque "abajo" para activar el modo de búsqueda por aplausos.</string>
+    <string name="sound_alert">Alerta</string>
+    <string name="train_horn">Claxon de tren</string>
+    <string name="party_horn">Claxon de barco</string>
+    <string name="find_me_n_i_am_here">Encuéntrame.\n¡Estoy aquí!</string>
+    <string name="stop_lbl">DETENER</string>
+    <string name="custom_sound">Sonido personalizado: </string>
+    <string name="custom_sound_chose">Elegir</string>
+    <string name="settings">Configuración</string>
+    <string name="charging_alarm">Alarma de carga</string>
+    <string name="tap_under_to_activate_charing">Toque "Iniciar" para activar\nel modo de Alarma de Carga al Desconectar.</string>
+    <string name="tap_under_to_activate_charing_stop">El modo está habilitado. Ahora, si alguien lo desconecta de la carga, comenzará a sonar.</string>
+    <string name="start_tt">INICIAR</string>
+    <string name="stop_tt">DETENER</string>
+
+
+</resources>

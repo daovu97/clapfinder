@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lg_english">अंग्रेज़ी</string>
+    <string name="lg_french">फ़्रेंच</string>
+    <string name="lg_hindi">हिंदी</string>
+    <string name="lg_china">चीनी</string>
+    <string name="lg_spanish">स्पेनिश</string>
+    <string name="lg_portuguese">पुर्तगाली</string>
+    <string name="lg_indo">Indonesio</string>
+    <string name="lg_japan">Japonés</string>
+    <string name="lg_korean">Coreano</string>
+    <string name="lg_vietnam">Vietnamita</string>
+    <string name="app_name">बजाने वाला खोज</string>
+    <string name="service_running">बजाने वाला खोज चल रहा है</string>
+    <string name="language">भाषा</string>
+    <string name="permission">अनुमति</string>
+    <string name="txt_detail_grant_permission">ऐप्लिकेशन को <b>रेकॉर्डिंग की अनुमति</b> की आवश्यकता है ताकि फ़ोन खोज सेवा प्रदान की जा सके</string>
+    <string name="txtvolume">आवाज़</string>
+    <string name="txt_duration">अवधि</string>
+    <string name="txt_privacy_policy">गोपनीयता नीति</string>
+    <string name="txtshare">साझा करें</string>
+    <string name="txt_feedback">प्रतिसाद</string>
+    <string name="txt_rate_us">हमें रेटिंग दें</string>
+    <string name="txt_go">जाएँ</string>
+    <string name="txt_sound">अलर्ट आवाज़</string>
+    <string name="tapToDeActiveTitle">निष्क्रिय करने के लिए टैप करें</string>
+    <string name="flashlightTitle">फ़्लैशलाइट</string>
+    <string name="vibrationTitle">वाइब्रेशन</string>
+    <string name="txt_setting">सेटिंग्स</string>
+    <string name="txt_choose_sound_ss">%1$s की आवाज़ सेट करें सफलता से</string>
+    <string name="txt_allow_access_notification">सूचनाएँ</string>
+    <string name="txt_allow_access_recording">रेकॉर्डिंग</string>
+    <string name="cat_meowing">बिल्ली की म्याऊँग</string>
+    <string name="dog_barking">कुत्ते की भौंकन</string>
+    <string name="laugh">हँसी</string>
+    <string name="chicken">मुर्गा</string>
+    <string name="police_whistle">पुलिस की सीटी</string>
+    <string name="door_bell">दरवाज़े की घंटी</string>
+    <string name="cavalry">सवारी</string>
+    <string name="this_action_can_contain_ads">यह क्रियावली में विज्ञापन शामिल हो सकते हैं</string>
+    <string name="tap_under_to_activate_clap_nfinder_mode">"नीचे" टैप करें ताकि क्लैप खोज मोड सक्रिय हो सके।</string>
+    <string name="sound_alert">अलर्ट</string>
+    <string name="train_horn">ट्रेन की हॉर्न</string>
+    <string name="party_horn">बोट की हॉर्न</string>
+    <string name="find_me_n_i_am_here">मुझे ढूंढ़ो।\nमैं यहाँ हूँ!</string>
+    <string name="stop_lbl">रोकें</string>
+    <string name="custom_sound">कस्टम साउंड: </string>
+    <string name="custom_sound_chose">चुनें</string>
+    <string name="settings">सेटिंग्स</string>
+    <string name="charging_alarm">चार्जिंग अलार्म</string>
+    <string name="tap_under_to_activate_charing">"शुरू" टैप करें ताकि अनप्लग करने पर चार्जिंग अलार्म मोड सक्रिय हो।</string>
+    <string name="tap_under_to_activate_charing_stop">मोड सक्रिय है। अब अगर कोई इसे चार्ज से अलग करता है, तो यह बीपिंग शुरू हो जाएगी।</string>
+    <string name="start_tt">शुरू</string>
+    <string name="stop_tt">रोकें</string>
+
+</resources>

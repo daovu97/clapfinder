@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.findmyphone.clapping.find.resource.customView.HeaderView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cs_title="@string/txt_sound"
+        app:layout_constraintTop_toTopOf="parent"
+        app:right_action_type="image"
+        app:src_right="@drawable/ic_checkmark" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/settingContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        app:cardElevation="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/header">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="16dp">
+
+            <RelativeLayout
+                android:id="@+id/layoutSeekbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp">
+
+                <com.findmyphone.clapping.find.resource.customView.BaseTextview
+
+                    android:id="@+id/txtVolume"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/txtvolume"
+                    android:textColor="@color/txt_color"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <androidx.appcompat.widget.AppCompatSeekBar
+                    android:id="@+id/seekbarVolume"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/txtVolume"
+                    android:max="10"
+                    android:maxHeight="2dp"
+                    android:progress="2"
+                    android:progressDrawable="@drawable/seekbar_thumb"
+                    android:progressTint="#2CB453"
+                    android:thumb="@drawable/thumb_seekbar" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layoutSeekbar"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="@dimen/dimen_16">
+
+                <com.findmyphone.clapping.find.resource.customView.BaseTextview
+
+                    android:id="@+id/txtDuration"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/txt_duration"
+                    android:textColor="@color/txt_color"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_toRightOf="@id/txtDuration"
+                    android:orientation="horizontal"
+                    android:weightSum="4">
+
+                    <com.findmyphone.clapping.find.resource.customView.BaseTextview
+
+                        android:id="@+id/txt15s"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="6dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_press_txt"
+                        android:gravity="center"
+                        android:paddingVertical="3dp"
+                        android:text="15s"
+                        android:textColor="@color/txt_color"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <com.findmyphone.clapping.find.resource.customView.BaseTextview
+
+                        android:id="@+id/txt30s"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="6dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_press"
+                        android:gravity="center"
+                        android:paddingVertical="3dp"
+                        android:text="30s"
+                        android:textColor="@color/txt_color"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <com.findmyphone.clapping.find.resource.customView.BaseTextview
+
+                        android:id="@+id/txt1m"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="6dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_press"
+                        android:gravity="center"
+                        android:paddingVertical="3dp"
+                        android:text="1m"
+                        android:textColor="@color/txt_color"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <com.findmyphone.clapping.find.resource.customView.BaseTextview
+
+                        android:id="@+id/txt2m"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_press"
+                        android:gravity="center"
+                        android:paddingVertical="3dp"
+                        android:text="2m"
+                        android:textColor="@color/txt_color"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcSound"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_above="@+id/fr_ads"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        app:layout_constraintBottom_toTopOf="@+id/fr_ads"
+        app:layout_constraintTop_toBottomOf="@id/settingContainer"
+        app:spanCount="3" />
+
+    <FrameLayout
+        android:id="@+id/fr_ads"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="@dimen/_3sdp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <include layout="@layout/ads_shimmer_native_language" />
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

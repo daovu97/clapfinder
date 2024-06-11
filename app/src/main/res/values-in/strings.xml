@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lg_english">Inggris</string>
+    <string name="lg_french">Prancis</string>
+    <string name="lg_hindi">Hindi</string>
+    <string name="lg_china">Cina</string>
+    <string name="lg_spanish">Spanyol</string>
+    <string name="lg_portuguese">Portugis</string>
+    <string name="lg_indo">Indonesia</string>
+    <string name="lg_japan">Jepang</string>
+    <string name="lg_korean">Korea</string>
+    <string name="lg_vietnam">Vietnam</string>
+    <string name="app_name">Pencari tepuk tangan</string>
+    <string name="service_running">Pencari tepuk tangan sedang berjalan</string>
+    <string name="language">Bahasa</string>
+    <string name="permission">Izin</string>
+    <string name="txt_detail_grant_permission">Aplikasi membutuhkan <b>Izin Perekaman</b> untuk menemukan ponsel dengan tepukan tangan</string>
+    <string name="txtvolume">Volume</string>
+    <string name="txt_duration">Durasi</string>
+    <string name="txt_privacy_policy">Kebijakan Privasi</string>
+    <string name="txtshare">Bagikan</string>
+    <string name="txt_feedback">Umpan Balik</string>
+    <string name="txt_rate_us">Beri Nilai Kami</string>
+    <string name="txt_go">Lanjutkan</string>
+    <string name="txt_sound">Suara Peringatan</string>
+    <string name="tapToDeActiveTitle">Ketuk untuk menonaktifkan</string>
+    <string name="flashlightTitle">Senter</string>
+    <string name="vibrationTitle">Getaran</string>
+    <string name="txt_setting">Pengaturan</string>
+    <string name="txt_choose_sound_ss">Atur suara %1$s berhasil</string>
+    <string name="txt_allow_access_notification">Pemberitahuan</string>
+    <string name="txt_allow_access_recording">Perekaman</string>
+    <string name="cat_meowing">Kucing mengeong</string>
+    <string name="dog_barking">Anjing menggonggong</string>
+    <string name="laugh">Tertawa</string>
+    <string name="chicken">Ayam</string>
+    <string name="police_whistle">Peluit polisi</string>
+    <string name="door_bell">Bel pintu</string>
+    <string name="cavalry">Kavaleri</string>
+    <string name="this_action_can_contain_ads">Tindakan ini dapat mengandung iklan</string>
+    <string name="tap_under_to_activate_clap_nfinder_mode">Ketuk "di bawah" untuk mengaktifkan mode Pencari Tepuk Tangan.</string>
+    <string name="sound_alert">Peringatan</string>
+    <string name="train_horn">Trompet kereta</string>
+    <string name="party_horn">Trompet kapal</string>
+    <string name="find_me_n_i_am_here">Temukan saya.\nSaya di sini!</string>
+    <string name="stop_lbl">BERHENTI</string>
+    <string name="custom_sound">Suara kustom: </string>
+    <string name="custom_sound_chose">Pilih</string>
+    <string name="settings">Pengaturan</string>
+    <string name="charging_alarm">Alarm pengisian</string>
+    <string name="tap_under_to_activate_charing">Ketuk "Mulai" untuk mengaktifkan\nmode Alarm Pengisian yang Tidak Terhubung.</string>
+    <string name="tap_under_to_activate_charing_stop">Mode sudah diaktifkan. Sekarang, jika seseorang mencabutnya dari pengisian, alarm akan berbunyi.</string>
+    <string name="start_tt">MULAI</string>
+    <string name="stop_tt">BERHENTI</string>
+
+</resources>

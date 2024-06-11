@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lg_english">Tiếng Anh</string>
+    <string name="lg_french">Tiếng Pháp</string>
+    <string name="lg_hindi">Tiếng Hindi</string>
+    <string name="lg_china">Tiếng Trung Quốc</string>
+    <string name="lg_spanish">Tiếng Tây Ban Nha</string>
+    <string name="lg_portuguese">Tiếng Bồ Đào Nha</string>
+    <string name="lg_indo">Tiếng Indonesia</string>
+    <string name="lg_japan">Tiếng Nhật Bản</string>
+    <string name="lg_korean">Tiếng Hàn Quốc</string>
+    <string name="lg_vietnam">Tiếng Việt Nam</string>
+    <string name="app_name">Clap Finder</string>
+    <string name="service_running">Tìm Bằng Cách Vỗ Tay đang chạy</string>
+    <string name="language">Ngôn Ngữ</string>
+    <string name="permission">Quyền</string>
+    <string name="txt_detail_grant_permission">Ứng dụng cần <b>Quyền Ghi Âm</b> để tìm điện thoại bằng cách vỗ tay</string>
+    <string name="txtvolume">Âm Lượng</string>
+    <string name="txt_duration">Thời Lượng</string>
+    <string name="txt_privacy_policy">Chính Sách Bảo Mật</string>
+    <string name="txtshare">Chia Sẻ</string>
+    <string name="txt_feedback">Phản Hồi</string>
+    <string name="txt_rate_us">Đánh Giá Chúng Tôi</string>
+    <string name="txt_go">Bắt Đầu</string>
+    <string name="txt_sound">Âm Thanh Cảnh Báo</string>
+    <string name="tapToDeActiveTitle">Nhấn để vô hiệu hóa</string>
+    <string name="flashlightTitle">Đèn Pin</string>
+    <string name="vibrationTitle">Rung</string>
+    <string name="txt_setting">Cài Đặt</string>
+    <string name="txt_choose_sound_ss">Đặt âm thanh %1$s thành công</string>
+    <string name="txt_allow_access_notification">Thông Báo</string>
+    <string name="txt_allow_access_recording">Ghi Âm</string>
+    <string name="cat_meowing">Tiếng Mèo Kêu</string>
+    <string name="dog_barking">Tiếng Chó Sủa</string>
+    <string name="laugh">Tiếng Cười</string>
+    <string name="chicken">Gà</string>
+    <string name="police_whistle">Còi Cảnh Sát</string>
+    <string name="door_bell">Còi Chuông Cửa</string>
+    <string name="cavalry">Kỵ Binh</string>
+    <string name="this_action_can_contain_ads">Hành động này có thể chứa quảng cáo</string>
+    <string name="tap_under_to_activate_clap_nfinder_mode">Chạm "dưới" để kích hoạt chế độ Tìm Bằng Cách Vỗ Tay.</string>
+    <string name="sound_alert">Cảnh Báo Âm Thanh</string>
+    <string name="train_horn">Còi Tàu Hỏa</string>
+    <string name="party_horn">Còi Tàu Du Lịch</string>
+    <string name="find_me_n_i_am_here">Tìm tôi.\nTôi đây!</string>
+    <string name="stop_lbl">Dừng</string>
+    <string name="custom_sound">Âm thanh tùy chỉnh: </string>
+    <string name="custom_sound_chose">Chọn</string>
+    <string name="settings">Cài đặt</string>
+    <string name="charging_alarm">Báo động sạc pin</string>
+    <string name="tap_under_to_activate_charing">Chạm vào "Bắt đầu" để kích hoạt\nchế độ Báo động Sạc Pin khi rút ra.</string>
+    <string name="tap_under_to_activate_charing_stop">Chế độ đã được kích hoạt. Bây giờ, nếu ai đó ngắt kết nối từ sạc, nó sẽ bắt đầu kêu.</string>
+    <string name="start_tt">BẮT ĐẦU</string>
+    <string name="stop_tt">DỪNG</string>
+
+</resources>

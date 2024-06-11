@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lg_english">Anglais</string>
+    <string name="lg_french">Français</string>
+    <string name="lg_hindi">Hindi</string>
+    <string name="lg_china">Chinois</string>
+    <string name="lg_spanish">Espagnol</string>
+    <string name="lg_portuguese">Portugais</string>
+    <string name="lg_indo">Indonésien</string>
+    <string name="lg_japan">Japonais</string>
+    <string name="lg_korean">Coréen</string>
+    <string name="lg_vietnam">Vietnamien</string>
+    <string name="app_name">Trouver par Applaudissements</string>
+    <string name="service_running">Trouver par Applaudissements est en cours d\'exécution</string>
+    <string name="language">Langue</string>
+    <string name="permission">Permission</string>
+    <string name="txt_detail_grant_permission">L\'application a besoin de <b>l\'autorisation d\'enregistrement</b> pour trouver le téléphone en applaudissant</string>
+    <string name="txtvolume">Volume</string>
+    <string name="txt_duration">Durée</string>
+    <string name="txt_privacy_policy">Politique de confidentialité</string>
+    <string name="txtshare">Partager</string>
+    <string name="txt_feedback">Retour</string>
+    <string name="txt_rate_us">Évaluez-nous</string>
+    <string name="txt_go">Aller</string>
+    <string name="txt_sound">Son d\'alerte</string>
+    <string name="tapToDeActiveTitle">Touchez pour désactiver</string>
+    <string name="flashlightTitle">Lampe de poche</string>
+    <string name="vibrationTitle">Vibration</string>
+    <string name="txt_setting">Réglage</string>
+    <string name="txt_choose_sound_ss">Définir le son %1$s avec succès</string>
+    <string name="txt_allow_access_notification">Notifications</string>
+    <string name="txt_allow_access_recording">Enregistrement</string>
+    <string name="cat_meowing">Miaulements de chat</string>
+    <string name="dog_barking">Aboiements de chien</string>
+    <string name="laugh">Rire</string>
+    <string name="chicken">Poulet</string>
+    <string name="police_whistle">Sifflet de police</string>
+    <string name="door_bell">Sonnette de porte</string>
+    <string name="cavalry">Cavalerie</string>
+    <string name="this_action_can_contain_ads">Cette action peut contenir des publicités</string>
+    <string name="tap_under_to_activate_clap_nfinder_mode">Touchez "en dessous" pour activer le mode de recherche par applaudissements.</string>
+    <string name="sound_alert">Alerte sonore</string>
+    <string name="train_horn">Klaxon de train</string>
+    <string name="party_horn">Klaxon de bateau</string>
+    <string name="find_me_n_i_am_here">Trouvez-moi.\nJe suis ici !</string>
+    <string name="stop_lbl">ARRÊT</string>
+    <string name="custom_sound">Son personnalisé : </string>
+    <string name="custom_sound_chose">Choisir</string>
+    <string name="settings">Paramètres</string>
+    <string name="charging_alarm">Alarme de charge</string>
+    <string name="tap_under_to_activate_charing">Appuyez sur "Démarrer" pour activer\nle mode d\'Alarme de Charge non branchée.</string>
+    <string name="tap_under_to_activate_charing_stop">Le mode est activé. Maintenant, si quelqu\'un le débranche de la charge, il se mettra à sonner.</string>
+    <string name="start_tt">DÉMARRER</string>
+    <string name="stop_tt">ARRÊTER</string>
+
+</resources>

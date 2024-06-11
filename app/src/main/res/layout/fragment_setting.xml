@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_settings_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".view.settings.SettingFragment">
+
+    <LinearLayout
+        android:id="@+id/toolbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.findmyphone.clapping.find.resource.customView.HeaderView
+            android:id="@+id/header_setting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cs_title="@string/txt_setting"
+            app:left_action_type="none" />
+    </LinearLayout>
+
+
+    <ScrollView
+        android:id="@+id/scrollable"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/rl_banner_list"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar_layout">
+
+        <LinearLayout
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.findmyphone.clapping.find.resource.customView.BaseTextview
+                android:id="@+id/btn_remove_ads"
+                style="@style/text_view_item_setting"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:drawablePadding="16dp"
+                android:padding="16dp"
+                android:text="remove_ads"
+                android:textColor="@color/black"
+                android:visibility="gone" />
+
+
+            <com.findmyphone.clapping.find.resource.customView.BaseTextview
+                android:id="@+id/btn_language"
+                style="@style/text_view_item_setting2"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:drawableStart="@drawable/ic_language"
+                android:drawableEnd="@drawable/ic_view"
+                android:gravity="center_vertical"
+                android:text="@string/language"
+                android:textColor="@color/black" />
+
+            <com.findmyphone.clapping.find.resource.customView.BaseTextview
+                android:id="@+id/btn_rate_us"
+                style="@style/text_view_item_setting"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:drawableStart="@drawable/ic_rate_us"
+                android:drawableEnd="@drawable/ic_view"
+                android:text="@string/txt_rate_us"
+                android:textColor="@color/black" />
+
+            <com.findmyphone.clapping.find.resource.customView.BaseTextview
+                android:id="@+id/btn_feedback"
+                style="@style/text_view_item_setting"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:drawableStart="@drawable/ic_feed_back"
+                android:drawableEnd="@drawable/ic_view"
+                android:text="@string/txt_feedback"
+                android:textColor="@color/black"
+                android:visibility="visible" />
+
+            <com.findmyphone.clapping.find.resource.customView.BaseTextview
+                android:id="@+id/btn_share"
+                style="@style/text_view_item_setting"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:drawableStart="@drawable/ic_share"
+                android:drawableEnd="@drawable/ic_view"
+                android:text="@string/txtshare"
+                android:textColor="@color/black" />
+
+            <com.findmyphone.clapping.find.resource.customView.BaseTextview
+                android:id="@+id/btn_privacy_policy"
+                style="@style/text_view_item_setting"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:drawableStart="@drawable/ic_privacy_policy"
+                android:drawableEnd="@drawable/ic_view"
+                android:text="@string/txt_privacy_policy"
+                android:textColor="@color/black" />
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/rl_banner_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#E3E2E2"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <include
+            android:id="@+id/banner"
+            layout="@layout/layout_banner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:visibility="visible" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

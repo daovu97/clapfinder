@@ -1,0 +1,103 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    id 'dagger.hilt.android.plugin'
+    id 'com.google.gms.google-services'
+    id 'com.google.firebase.crashlytics'
+    id 'com.google.devtools.ksp'
+}
+
+android {
+    signingConfigs {
+        release {
+            storeFile file('keystore.jks')
+            storePassword 'Anhvu3497'
+            keyAlias 'Anhvu3497'
+            keyPassword 'Anhvu3497'
+        }
+    }
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.findmyphone.clapping.find"
+        minSdk 26
+        targetSdk 34
+        versionCode 102
+        versionName "1.0.3"
+        def formattedDate = new Date().format('MM.dd.yyyy')
+        archivesBaseName = "FindMyPhoneByClap_v${versionName}(${versionCode})_${formattedDate}"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        buildConfigField("String", "EMAIL_ADDRESS", "\"vtool.app.help@gmail.com\"")
+        buildConfigField("String", "URL_PRIVACY", "\"https://postmess1.commude-vietnam.work/privacy/vtool_finder.html\"")
+    }
+    buildTypes {
+        debug {
+            debuggable true
+//            applicationIdSuffix ".dev"
+        }
+
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+
+
+    }
+
+    buildFeatures {
+        buildConfig = true
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_18
+        targetCompatibility JavaVersion.VERSION_18
+    }
+    kotlinOptions {
+        jvmTarget = '18'
+    }
+    viewBinding {
+        enabled = true
+    }
+    namespace 'com.findmyphone.clapping.find'
+}
+
+dependencies {
+
+    implementation 'androidx.core:core-ktx:1.12.0'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.10.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+    //hilt
+    def hilt_version = "2.48.1"
+    implementation("com.google.dagger:hilt-android:$hilt_version")
+    ksp "com.google.dagger:dagger-compiler:2.48.1" // Dagger compiler
+    ksp "com.google.dagger:hilt-compiler:2.48.1"   // Hilt compiler
+
+    def lifecycle_version = "2.6.2"
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version"
+    implementation "androidx.lifecycle:lifecycle-livedata-core-ktx:$lifecycle_version"
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:$lifecycle_version"
+
+    implementation 'com.tbuonomo:dotsindicator:5.0'
+    implementation 'com.github.veeyaarVR:SuperGradientTextView:1.1'
+
+    implementation fileTree(dir: "library", include: ["*.jar", "*.aar"])
+    implementation files('library/TarsosDSP-Android-latest-bin.jar')
+
+    implementation platform('com.google.firebase:firebase-bom:32.0.0')
+
+    implementation 'com.google.firebase:firebase-analytics-ktx'
+    implementation 'com.google.firebase:firebase-crashlytics-ktx'
+    implementation("com.google.firebase:firebase-config-ktx")
+
+    implementation 'com.google.android.play:core:1.10.3'
+    implementation 'com.github.chiennq44:AdsLibrary:1.2.3'
+    implementation 'com.google.android.gms:play-services-ads:22.5.0'
+
+    implementation 'com.github.majidarabi:AndroidFilePicker:0.2.2'
+}

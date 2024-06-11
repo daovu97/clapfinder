@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <style name="text_view_item_setting">
+        <item name="android:textSize">16sp</item>
+        <item name="android:background">@drawable/bg_item_setting</item>
+        <item name="android:drawablePadding">16dp</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <!--        <item name="android:drawableTint">@color/primaryColor</item>-->
+    </style>
+
+    <style name="text_view_item_setting2">
+        <item name="android:textSize">16sp</item>
+        <item name="android:background">@drawable/bg_item_setting</item>
+        <item name="android:drawablePadding">16dp</item>
+        <item name="android:padding">16dp</item>
+        <!--        <item name="android:drawableTint">@color/primaryColor</item>-->
+
+    </style>
+
+</resources>

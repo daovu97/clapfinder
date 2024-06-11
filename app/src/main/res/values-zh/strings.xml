@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lg_english">英文</string>
+    <string name="lg_french">法文</string>
+    <string name="lg_hindi">印地文</string>
+    <string name="lg_china">中文</string>
+    <string name="lg_spanish">西班牙文</string>
+    <string name="lg_portuguese">葡萄牙文</string>
+    <string name="lg_indo">印尼文</string>
+    <string name="lg_japan">日文</string>
+    <string name="lg_korean">韩文</string>
+    <string name="lg_vietnam">越南文</string>
+    <string name="app_name">找掌声</string>
+    <string name="service_running">找掌声正在运行</string>
+    <string name="language">语言</string>
+    <string name="permission">权限</string>
+    <string name="txt_detail_grant_permission">应用程序需要<b>录音权限</b>以提供通过拍手找手机的功能</string>
+    <string name="txtvolume">音量</string>
+    <string name="txt_duration">持续时间</string>
+    <string name="txt_privacy_policy">隐私政策</string>
+    <string name="txtshare">分享</string>
+    <string name="txt_feedback">反馈</string>
+    <string name="txt_rate_us">评价我们</string>
+    <string name="txt_go">前往</string>
+    <string name="txt_sound">警报声音</string>
+    <string name="tapToDeActiveTitle">点击以停用</string>
+    <string name="flashlightTitle">手电筒</string>
+    <string name="vibrationTitle">振动</string>
+    <string name="txt_setting">设置</string>
+    <string name="txt_choose_sound_ss">设置声音 %1$s 成功</string>
+    <string name="txt_allow_access_notification">通知</string>
+    <string name="txt_allow_access_recording">录音</string>
+    <string name="cat_meowing">猫叫声</string>
+    <string name="dog_barking">狗叫声</string>
+    <string name="laugh">笑声</string>
+    <string name="chicken">鸡叫声</string>
+    <string name="police_whistle">警笛声</string>
+    <string name="door_bell">门铃声</string>
+    <string name="cavalry">骑兵声</string>
+    <string name="this_action_can_contain_ads">此操作可能包含广告</string>
+    <string name="tap_under_to_activate_clap_nfinder_mode">点击“下方”以激活拍手寻找模式。</string>
+    <string name="sound_alert">警报</string>
+    <string name="train_horn">火车喇叭声</string>
+    <string name="party_horn">船号角声</string>
+    <string name="find_me_n_i_am_here">找我。\n我在这里！</string>
+    <string name="stop_lbl">停止</string>
+    <string name="custom_sound">自定义声音：</string>
+    <string name="custom_sound_chose">选择</string>
+    <string name="settings">设置</string>
+    <string name="charging_alarm">充电警报</string>
+    <string name="tap_under_to_activate_charing">点击“开始”以激活\n断开连接充电警报模式。</string>
+    <string name="tap_under_to_activate_charing_stop">模式已启用。现在，如果有人从充电器拔出它，它将开始发出哔哔声。</string>
+    <string name="start_tt">开始</string>
+    <string name="stop_tt">停止</string>
+
+</resources>

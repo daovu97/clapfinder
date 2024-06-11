@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "305921785842",
+    "project_id": "findphoneclap-fa903",
+    "storage_bucket": "findphoneclap-fa903.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:305921785842:android:df655ef826482ab646356b",
+        "android_client_info": {
+          "package_name": "com.findmyphone.clapping.find"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeXl-Bn0uT0gJJSxW6bR_jd0G8khsSjMg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

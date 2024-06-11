@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lg_english">영어</string>
+    <string name="lg_french">프랑스어</string>
+    <string name="lg_hindi">힌디어</string>
+    <string name="lg_china">중국어</string>
+    <string name="lg_spanish">스페인어</string>
+    <string name="lg_portuguese">포르투갈어</string>
+    <string name="lg_indo">인도네시아어</string>
+    <string name="lg_japan">일본어</string>
+    <string name="lg_korean">한국어</string>
+    <string name="lg_vietnam">베트남어</string>
+    <string name="app_name">박수 찾기</string>
+    <string name="service_running">박수 찾기 서비스가 실행 중입니다</string>
+    <string name="language">언어</string>
+    <string name="permission">허가</string>
+    <string name="txt_detail_grant_permission">어플리케이션은 핸드폰을 박수로 찾기 위해 <b>녹음 허가</b>가 필요합니다</string>
+    <string name="txtvolume">볼륨</string>
+    <string name="txt_duration">지속 시간</string>
+    <string name="txt_privacy_policy">개인 정보 보호 정책</string>
+    <string name="txtshare">공유</string>
+    <string name="txt_feedback">피드백</string>
+    <string name="txt_rate_us">평가하기</string>
+    <string name="txt_go">시작</string>
+    <string name="txt_sound">경고음</string>
+    <string name="tapToDeActiveTitle">비활성화하려면 탭하세요</string>
+    <string name="flashlightTitle">손전등</string>
+    <string name="vibrationTitle">진동</string>
+    <string name="txt_setting">설정</string>
+    <string name="txt_choose_sound_ss">%1$s 소리가 설정되었습니다</string>
+    <string name="txt_allow_access_notification">알림</string>
+    <string name="txt_allow_access_recording">녹음</string>
+    <string name="cat_meowing">고양이 울음소리</string>
+    <string name="dog_barking">개 짖는 소리</string>
+    <string name="laugh">웃음소리</string>
+    <string name="chicken">닭</string>
+    <string name="police_whistle">경찰 휘슬 소리</string>
+    <string name="door_bell">종소리</string>
+    <string name="cavalry">기병대</string>
+    <string name="this_action_can_contain_ads">이 작업에 광고가 포함될 수 있습니다</string>
+    <string name="tap_under_to_activate_clap_nfinder_mode">박수 찾기 모드를 활성화하려면 "아래"를 탭하세요.</string>
+    <string name="sound_alert">경고</string>
+    <string name="train_horn">기차 경적 소리</string>
+    <string name="party_horn">배 경적 소리</string>
+    <string name="find_me_n_i_am_here">나를 찾아주세요.\n여기 있어요!</string>
+    <string name="stop_lbl">중지</string>
+    <string name="custom_sound">사용자 지정 사운드: </string>
+    <string name="custom_sound_chose">선택</string>
+    <string name="settings">설정</string>
+    <string name="charging_alarm">충전 알람</string>
+    <string name="tap_under_to_activate_charing">"시작"을 탭하여 충전 알람 모드를\n연결 해제 충전 알람 모드로 활성화합니다.</string>
+    <string name="tap_under_to_activate_charing_stop">모드가 활성화되었습니다. 이제 누군가가 충전기에서 분리하면 경보음이 울릴 것입니다.</string>
+    <string name="start_tt">시작</string>
+    <string name="stop_tt">정지</string>
+
+</resources>
